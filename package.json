@@ -1,0 +1,29 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Practise project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "tsnd src/server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuduruSravya/MERN.git"
+  },
+  "author": "Sravya Guduru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuduruSravya/MERN/issues"
+  },
+  "homepage": "https://github.com/GuduruSravya/MERN#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
